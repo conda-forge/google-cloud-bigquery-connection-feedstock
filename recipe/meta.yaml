@@ -1,5 +1,5 @@
 {% set name = "google-cloud-bigquery-connection" %}
-{% set version = "1.13.2" %}
+{% set version = "1.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-bigquery-connection-{{ version }}.tar.gz
-  sha256: 7890931545bd44710762b0eac6883bc4564543d8bd810258d073d38b7fef7a68
+  sha256: 54a2173a6a81255eac46bdf6bb0ea2f4fb112ff03498c46a7a360eb629adbf0a
 
 build:
   noarch: python

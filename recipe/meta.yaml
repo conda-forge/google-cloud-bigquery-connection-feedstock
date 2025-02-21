@@ -1,5 +1,5 @@
 {% set name = "google-cloud-bigquery-connection" %}
-{% set version = "1.18.0" %}
+{% set version = "1.18.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_bigquery_connection-{{ version }}.tar.gz
-  sha256: 35bebb0a8aa579691cf1f44715b64af0d445a4644a722e8f36038426e9879a7e
+  sha256: f367b81787909dedac8e58beab6c48f80fad4fd7d7f541664283b3245c6651bd
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
     - google-auth >=2.14.1,<3.0.0dev,!=2.24.0,!=2.25.0
     - proto-plus >=1.22.3,<2.0.0dev
     - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
-    - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
+    - grpc-google-iam-v1 >=0.14.0,<1.0.0dev
 
 test:
   imports:
